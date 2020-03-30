@@ -40,7 +40,7 @@ Jalankan _command_ berikut pada SSH Vagrant
 Sekarang redis sudah terinstall di dalam _virtual machine_
 
 ## Instalasi Redis Cluster
-Gunakan konfigurasi pada [https://github.com/zakyd/poc-redis-cluster/tree/master/conf](https://github.com/zakyd/poc-redis-cluster/tree/master/conf), dan letakkan pada direktori Vagrant (F:\VB\\)
+Gunakan konfigurasi pada [https://github.com/zakyd/poc-redis-cluster/tree/master/assets/conf](https://github.com/zakyd/poc-redis-cluster/tree/master/assets/conf), dan letakkan pada direktori Vagrant (F:\VB\\)
 Kemudian buka 3 terminal (untuk 3 master, 0 slave) atau 6 terminal (untuk 3 master, 3 slave), dan jalankan _command_ berikut pada setiap terminal
 > $ vagrant ssh
 
@@ -48,7 +48,7 @@ Kemudian buka 3 terminal (untuk 3 master, 0 slave) atau 6 terminal (untuk 3 mast
 
 Catatan: nodeX.conf disesuaikan (contoh: node1.conf, node2.conf, node3.conf, node4.conf, node5.conf, node6.conf)
 
-![alt text](https://github.com/zakyd/poc-redis-cluster/blob/master/assets/images/command-redis-server.PNG?raw=true "Redis Server")
+![alt text](https://github.com/zakyd/poc-redis-cluster/blob/master/assets/images/command-redis-server-7001.PNG?raw=true "Redis Server")
 
 Sehingga dapat dibuat Redis Cluster menggunakan _command_:
 Untuk 3 master dan 0 slave:
@@ -65,7 +65,9 @@ Dan Redis Cluster siap digunakan!
 ![alt text](https://github.com/zakyd/poc-redis-cluster/blob/master/assets/images/redis-set.PNG?raw=true "Redis Commands")
 
 ## Aplikasi Pendukung
-Aplikasi Node JS pada [https://github.com/zakyd/poc-redis-cluster/blob/master/index.js](https://github.com/zakyd/poc-redis-cluster/blob/master/index.js) mendukung penggunaan Redis Cluster
+Aplikasi Node JS pada [https://github.com/zakyd/poc-redis-cluster/blob/master/app](https://github.com/zakyd/poc-redis-cluster/blob/master/app) mendukung penggunaan Redis Cluster
+
+![alt text](https://github.com/zakyd/poc-redis-cluster/blob/master/assets/images/index-js.PNG?raw=true "Index JS")
 
 
 author: zakyd
