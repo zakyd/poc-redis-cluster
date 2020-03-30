@@ -1,23 +1,10 @@
 [
     {
-        "folder": "./",
-        "files": [
-            "node.js"
-        ],
-        "url": "https://scalegrid.io/blog/intro-to-redis-cluster-sharding-advantages-limitations-deploying-and-client-connections/",
-        "title": "Intro to Redis Cluster Sharding – Advantages, Limitations, Deploying & Client Connections"
+        "title": "Intro to Redis Cluster Sharding – Advantages, Limitations, Deploying & Client Connections",
+        "url": "https://scalegrid.io/blog/intro-to-redis-cluster-sharding-advantages-limitations-deploying-and-client-connections/"
     },
     {
-        "folder": "./conf",
-        "files": [
-            "node1.conf",
-            "node2.conf",
-            "node3.conf",
-            "node4.conf",
-            "node5.conf",
-            "node6.conf"
-        ],
-        "url": "https://medium.com/swlh/getting-started-with-redis-cluster-on-windows-6435d0ffd87",
-        "title": "Getting started with Redis cluster"
+        "title": "Getting started with Redis cluster",
+        "url": "https://medium.com/swlh/getting-started-with-redis-cluster-on-windows-6435d0ffd87"
     }
 ]

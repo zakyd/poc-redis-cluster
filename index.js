@@ -2,30 +2,17 @@ const readline = require('readline');
 const Redis = require('ioredis');
 
 var cluster = new Redis.Cluster([{
-    port: 6379,
-    host: 'SG-example-1.servers.scalegrid.io'
+    port: 7001,
+    host: '127.0.0.1'
 },
 {
-    port: 6379,
-    host: 'SG-example-2.servers.scalegrid.io'
+    port: 7002,
+    host: '127.0.0.1'
 },
 {
-    port: 6379,
-    host: 'SG-example-3.servers.scalegrid.io'
-},
-{
-    port: 6379,
-    host: 'SG-example-4.servers.scalegrid.io'
-},
-{
-    port: 6379,
-    host: 'SG-example-5.servers.scalegrid.io'
-},
-{
-    port: 6379,
-    host: 'SG-example-6.servers.scalegrid.io'
-}
-], { redisOptions: { password: '<auth>' } });
+    port: 7003,
+    host: '127.0.0.1'
+}]);
 
 const rl = readline.createInterface({
     input: process.stdin,
