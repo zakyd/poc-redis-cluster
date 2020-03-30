@@ -1,2 +1,2 @@
-# poc-redis-cluster
+# PoC Redis Cluster
 PoC Redis Cluster
