@@ -70,4 +70,4 @@ Aplikasi Node JS pada [https://github.com/zakyd/poc-redis-cluster/blob/master/ap
 ![alt text](https://github.com/zakyd/poc-redis-cluster/blob/master/assets/images/index-js.PNG?raw=true "Index JS")
 
 
-author: zakyd
+author: [zakyd](https://github.com/zakyd/)
