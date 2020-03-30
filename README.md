@@ -1,5 +1,5 @@
 # PoC Redis Cluster
-PoC Redis Cluster
+Proof of Concept Redis Cluster menggunakan Windows 10, Virtual Box, dan Vagrant.
 
 ## Apa yang kita butuhkan?
 Berikut merupakan software dibutuhkan dan harus terinstall pada Windows:
