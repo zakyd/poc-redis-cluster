@@ -14,8 +14,11 @@ Vagrant digunakan untuk membuat _virtual machine_ di dalam Virtual Box
 2. Kemudian, buka **Command Window** atau **CMD** pada direktori tersebut
 3. Jalankan peritah berikut
 > vagrant init joshfng/railsbox
+
 > vagrant up
+
 > vagrant ssh
+
 Hingga tampilan berikut muncul
 
 ![alt text](https://github.com/zakyd/poc-redis-cluster/blob/master/assets/images/command-vagrant-ssh.PNG?raw=true "SSH Vagrant")
