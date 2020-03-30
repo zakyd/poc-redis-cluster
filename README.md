@@ -5,6 +5,7 @@ PoC Redis Cluster
 Berikut merupakan software dibutuhkan dan harus terinstall pada Windows:
 1. Virtual Box ([https://www.virtualbox.org/wiki/Downloads](https://www.virtualbox.org/wiki/Downloads))
 2. Vagrant ([https://www.vagrantup.com/](https://www.vagrantup.com/))
+
 Vagrant digunakan untuk membuat _virtual machine_ di dalam Virtual Box
 
 ## Instalasi Vagrant
@@ -16,4 +17,5 @@ Vagrant digunakan untuk membuat _virtual machine_ di dalam Virtual Box
 > vagrant up
 > vagrant ssh
 Hingga tampilan berikut muncul
-![alt text](https://github.com/zakyd/poc-redis-cluster/tree/master/assets/images/command-vagrant-ssh.PNG "SSH Vagrant")
+
+![alt text](https://github.com/zakyd/poc-redis-cluster/blob/master/assets/images/command-vagrant-ssh.PNG?raw=true "SSH Vagrant")
